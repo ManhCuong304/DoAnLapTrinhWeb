@@ -1,0 +1,1177 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DoAnLapTrinhWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DoAnLapTrinhWeb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\base\\MembersDetail.css",
+      "PackagePath": "staticwebassets\\base\\MembersDetail.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\base\\base.css",
+      "PackagePath": "staticwebassets\\base\\base.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\base\\blog-detail.css",
+      "PackagePath": "staticwebassets\\base\\blog-detail.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\base\\blog.css",
+      "PackagePath": "staticwebassets\\base\\blog.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\base\\grid.css",
+      "PackagePath": "staticwebassets\\base\\grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\base\\group.css",
+      "PackagePath": "staticwebassets\\base\\group.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\base\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\base\\lightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\base\\main.css",
+      "PackagePath": "staticwebassets\\base\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\117251156_780671119335149_3490588943834725576_o copy 2.jpg",
+      "PackagePath": "staticwebassets\\images\\117251156_780671119335149_3490588943834725576_o copy 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\117251156_780671119335149_3490588943834725576_o copy 3.jpg",
+      "PackagePath": "staticwebassets\\images\\117251156_780671119335149_3490588943834725576_o copy 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\117251156_780671119335149_3490588943834725576_o copy 4.jpg",
+      "PackagePath": "staticwebassets\\images\\117251156_780671119335149_3490588943834725576_o copy 4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\117251156_780671119335149_3490588943834725576_o copy 5.jpg",
+      "PackagePath": "staticwebassets\\images\\117251156_780671119335149_3490588943834725576_o copy 5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\117251156_780671119335149_3490588943834725576_o copy.jpg",
+      "PackagePath": "staticwebassets\\images\\117251156_780671119335149_3490588943834725576_o copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\117251156_780671119335149_3490588943834725576_o.jpg",
+      "PackagePath": "staticwebassets\\images\\117251156_780671119335149_3490588943834725576_o.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\118391134_850516805482962_3300234423537028625_n.jpg",
+      "PackagePath": "staticwebassets\\images\\118391134_850516805482962_3300234423537028625_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\118715108_338880747261111_5322256351393249662_n.jpg",
+      "PackagePath": "staticwebassets\\images\\118715108_338880747261111_5322256351393249662_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\12347744_1662210687383816_4840286243424943150_n.jpg",
+      "PackagePath": "staticwebassets\\images\\12347744_1662210687383816_4840286243424943150_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\125567116_10222037693864792_3083228917287898622_o.jpg",
+      "PackagePath": "staticwebassets\\images\\125567116_10222037693864792_3083228917287898622_o.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\25074755_1169805606486672_2911866697935408951_o.jpg",
+      "PackagePath": "staticwebassets\\images\\25074755_1169805606486672_2911866697935408951_o.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\5f6e4a8528f4e-bpfull copy 2.jpg",
+      "PackagePath": "staticwebassets\\images\\5f6e4a8528f4e-bpfull copy 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\5f6e4a8528f4e-bpfull copy 3.jpg",
+      "PackagePath": "staticwebassets\\images\\5f6e4a8528f4e-bpfull copy 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\5f6e4a8528f4e-bpfull copy 4.jpg",
+      "PackagePath": "staticwebassets\\images\\5f6e4a8528f4e-bpfull copy 4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\5f6e4a8528f4e-bpfull copy 5.jpg",
+      "PackagePath": "staticwebassets\\images\\5f6e4a8528f4e-bpfull copy 5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\5f6e4a8528f4e-bpfull copy.jpg",
+      "PackagePath": "staticwebassets\\images\\5f6e4a8528f4e-bpfull copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\5f6e4a8528f4e-bpfull.jpg",
+      "PackagePath": "staticwebassets\\images\\5f6e4a8528f4e-bpfull.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\5f6e4af540c4f-bp-cover-image.jpg",
+      "PackagePath": "staticwebassets\\images\\5f6e4af540c4f-bp-cover-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Bronze-Cup copy 2.png",
+      "PackagePath": "staticwebassets\\images\\Bronze-Cup copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Bronze-Cup copy 3.png",
+      "PackagePath": "staticwebassets\\images\\Bronze-Cup copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Bronze-Cup copy 4.png",
+      "PackagePath": "staticwebassets\\images\\Bronze-Cup copy 4.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Bronze-Cup copy.png",
+      "PackagePath": "staticwebassets\\images\\Bronze-Cup copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Bronze-Cup.png",
+      "PackagePath": "staticwebassets\\images\\Bronze-Cup.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Hinh 1.jpg",
+      "PackagePath": "staticwebassets\\images\\Hinh 1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Hinh 2.jpg",
+      "PackagePath": "staticwebassets\\images\\Hinh 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Hinh 3.jpg",
+      "PackagePath": "staticwebassets\\images\\Hinh 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Hinh 4.jpg",
+      "PackagePath": "staticwebassets\\images\\Hinh 4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\IE106.L11_Nhom.xlsx",
+      "PackagePath": "staticwebassets\\images\\IE106.L11_Nhom.xlsx"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\KDB copy 2.jpg",
+      "PackagePath": "staticwebassets\\images\\KDB copy 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\KDB copy 3.jpg",
+      "PackagePath": "staticwebassets\\images\\KDB copy 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\KDB copy 4.jpg",
+      "PackagePath": "staticwebassets\\images\\KDB copy 4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\KDB copy.jpg",
+      "PackagePath": "staticwebassets\\images\\KDB copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\KDB.jpg",
+      "PackagePath": "staticwebassets\\images\\KDB.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Platinum-Cup copy 2.png",
+      "PackagePath": "staticwebassets\\images\\Platinum-Cup copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Platinum-Cup copy 3.png",
+      "PackagePath": "staticwebassets\\images\\Platinum-Cup copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Platinum-Cup copy 4.png",
+      "PackagePath": "staticwebassets\\images\\Platinum-Cup copy 4.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Platinum-Cup copy.png",
+      "PackagePath": "staticwebassets\\images\\Platinum-Cup copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Platinum-Cup.png",
+      "PackagePath": "staticwebassets\\images\\Platinum-Cup.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Ranks-Overlord copy 2.png",
+      "PackagePath": "staticwebassets\\images\\Ranks-Overlord copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Ranks-Overlord copy 3.png",
+      "PackagePath": "staticwebassets\\images\\Ranks-Overlord copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Ranks-Overlord copy.png",
+      "PackagePath": "staticwebassets\\images\\Ranks-Overlord copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Ranks-Overlord.png",
+      "PackagePath": "staticwebassets\\images\\Ranks-Overlord.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Silver-Cup copy 2.png",
+      "PackagePath": "staticwebassets\\images\\Silver-Cup copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Silver-Cup copy 3.png",
+      "PackagePath": "staticwebassets\\images\\Silver-Cup copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Silver-Cup copy.png",
+      "PackagePath": "staticwebassets\\images\\Silver-Cup copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Silver-Cup.png",
+      "PackagePath": "staticwebassets\\images\\Silver-Cup.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Silver-User copy 2.png",
+      "PackagePath": "staticwebassets\\images\\Silver-User copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Silver-User copy 3.png",
+      "PackagePath": "staticwebassets\\images\\Silver-User copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Silver-User copy.png",
+      "PackagePath": "staticwebassets\\images\\Silver-User copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\Silver-User.png",
+      "PackagePath": "staticwebassets\\images\\Silver-User.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\angry copy 2.png",
+      "PackagePath": "staticwebassets\\images\\angry copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\angry copy 3.png",
+      "PackagePath": "staticwebassets\\images\\angry copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\angry copy 4.png",
+      "PackagePath": "staticwebassets\\images\\angry copy 4.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\angry copy.png",
+      "PackagePath": "staticwebassets\\images\\angry copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\angry.png",
+      "PackagePath": "staticwebassets\\images\\angry.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\anhbia1.jpg",
+      "PackagePath": "staticwebassets\\images\\anhbia1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\anhdaidien1 copy.jpg",
+      "PackagePath": "staticwebassets\\images\\anhdaidien1 copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\anhdaidien1.jpg",
+      "PackagePath": "staticwebassets\\images\\anhdaidien1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\av-hoang.jpg",
+      "PackagePath": "staticwebassets\\images\\av-hoang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\av-hung.jpg",
+      "PackagePath": "staticwebassets\\images\\av-hung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\av-tuan.jpg",
+      "PackagePath": "staticwebassets\\images\\av-tuan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\av3.jpg",
+      "PackagePath": "staticwebassets\\images\\av3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\av4.jpg",
+      "PackagePath": "staticwebassets\\images\\av4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\av5.jpg",
+      "PackagePath": "staticwebassets\\images\\av5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\av6.jpg",
+      "PackagePath": "staticwebassets\\images\\av6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\av7.jpg",
+      "PackagePath": "staticwebassets\\images\\av7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\av8.jpg",
+      "PackagePath": "staticwebassets\\images\\av8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\av9.jpg",
+      "PackagePath": "staticwebassets\\images\\av9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\avata1.jpg",
+      "PackagePath": "staticwebassets\\images\\avata1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\avata2.jpg",
+      "PackagePath": "staticwebassets\\images\\avata2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\banner-bg copy 2.png",
+      "PackagePath": "staticwebassets\\images\\banner-bg copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\banner-bg copy 3.png",
+      "PackagePath": "staticwebassets\\images\\banner-bg copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\banner-bg copy 4.png",
+      "PackagePath": "staticwebassets\\images\\banner-bg copy 4.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\banner-bg copy 5.png",
+      "PackagePath": "staticwebassets\\images\\banner-bg copy 5.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\banner-bg copy.png",
+      "PackagePath": "staticwebassets\\images\\banner-bg copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\banner-bg.png",
+      "PackagePath": "staticwebassets\\images\\banner-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\bg-1.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\bg-10.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\bg-2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\bg-4.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\bg-5.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\bg-6.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\bg-8.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\bg-9.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\bg-hung.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-hung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\bg-tuan.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-tuan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\blog-icon copy 2.png",
+      "PackagePath": "staticwebassets\\images\\blog-icon copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\blog-icon copy 3.png",
+      "PackagePath": "staticwebassets\\images\\blog-icon copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\blog-icon copy.png",
+      "PackagePath": "staticwebassets\\images\\blog-icon copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\blog-icon.png",
+      "PackagePath": "staticwebassets\\images\\blog-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\close.png",
+      "PackagePath": "staticwebassets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\cropped-logovikinger (1) copy 2.png",
+      "PackagePath": "staticwebassets\\images\\cropped-logovikinger (1) copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\cropped-logovikinger (1) copy 3.png",
+      "PackagePath": "staticwebassets\\images\\cropped-logovikinger (1) copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\cropped-logovikinger (1) copy 4.png",
+      "PackagePath": "staticwebassets\\images\\cropped-logovikinger (1) copy 4.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\cropped-logovikinger (1) copy 5.png",
+      "PackagePath": "staticwebassets\\images\\cropped-logovikinger (1) copy 5.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\cropped-logovikinger (1) copy.png",
+      "PackagePath": "staticwebassets\\images\\cropped-logovikinger (1) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\cropped-logovikinger (1).png",
+      "PackagePath": "staticwebassets\\images\\cropped-logovikinger (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\cropped-logovikinger copy 2.png",
+      "PackagePath": "staticwebassets\\images\\cropped-logovikinger copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\cropped-logovikinger copy 3.png",
+      "PackagePath": "staticwebassets\\images\\cropped-logovikinger copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\cropped-logovikinger copy.png",
+      "PackagePath": "staticwebassets\\images\\cropped-logovikinger copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\cropped-logovikinger.png",
+      "PackagePath": "staticwebassets\\images\\cropped-logovikinger.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\giphy copy 2.gif",
+      "PackagePath": "staticwebassets\\images\\giphy copy 2.gif"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\giphy copy 3.gif",
+      "PackagePath": "staticwebassets\\images\\giphy copy 3.gif"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\giphy copy 4.gif",
+      "PackagePath": "staticwebassets\\images\\giphy copy 4.gif"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\giphy copy.gif",
+      "PackagePath": "staticwebassets\\images\\giphy copy.gif"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\giphy.gif",
+      "PackagePath": "staticwebassets\\images\\giphy.gif"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\goc-anh-dep-toa-nha-cao-nhat-viet-nam-thap-land-mark-81-tang-2.jpg",
+      "PackagePath": "staticwebassets\\images\\goc-anh-dep-toa-nha-cao-nhat-viet-nam-thap-land-mark-81-tang-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\groups-default-cover-photo-2x.png",
+      "PackagePath": "staticwebassets\\images\\groups-default-cover-photo-2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\groups-icon.png",
+      "PackagePath": "staticwebassets\\images\\groups-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\hinh-anh-chuc-giang-sinh-dep-10.jpg",
+      "PackagePath": "staticwebassets\\images\\hinh-anh-chuc-giang-sinh-dep-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\jeshoots-com-250229-unsplash-584x389 copy 2.jpg",
+      "PackagePath": "staticwebassets\\images\\jeshoots-com-250229-unsplash-584x389 copy 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\jeshoots-com-250229-unsplash-584x389 copy 3.jpg",
+      "PackagePath": "staticwebassets\\images\\jeshoots-com-250229-unsplash-584x389 copy 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\jeshoots-com-250229-unsplash-584x389 copy.jpg",
+      "PackagePath": "staticwebassets\\images\\jeshoots-com-250229-unsplash-584x389 copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\jeshoots-com-250229-unsplash-584x389.jpg",
+      "PackagePath": "staticwebassets\\images\\jeshoots-com-250229-unsplash-584x389.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\lukas-eggers-_rKl0w9BdiM-unsplash copy 2.jpg",
+      "PackagePath": "staticwebassets\\images\\lukas-eggers-_rKl0w9BdiM-unsplash copy 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\lukas-eggers-_rKl0w9BdiM-unsplash copy 3.jpg",
+      "PackagePath": "staticwebassets\\images\\lukas-eggers-_rKl0w9BdiM-unsplash copy 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\lukas-eggers-_rKl0w9BdiM-unsplash copy.jpg",
+      "PackagePath": "staticwebassets\\images\\lukas-eggers-_rKl0w9BdiM-unsplash copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\lukas-eggers-_rKl0w9BdiM-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\lukas-eggers-_rKl0w9BdiM-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\members-icon.png",
+      "PackagePath": "staticwebassets\\images\\members-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\members.png",
+      "PackagePath": "staticwebassets\\images\\members.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\mercenaries_by_real_sonkes-d62n5by copy 2.jpg",
+      "PackagePath": "staticwebassets\\images\\mercenaries_by_real_sonkes-d62n5by copy 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\mercenaries_by_real_sonkes-d62n5by copy 3.jpg",
+      "PackagePath": "staticwebassets\\images\\mercenaries_by_real_sonkes-d62n5by copy 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\mercenaries_by_real_sonkes-d62n5by copy.jpg",
+      "PackagePath": "staticwebassets\\images\\mercenaries_by_real_sonkes-d62n5by copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\mercenaries_by_real_sonkes-d62n5by.jpg",
+      "PackagePath": "staticwebassets\\images\\mercenaries_by_real_sonkes-d62n5by.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\muhammad-faiz-zulkeflee-qNCOVaOmzSo-unsplash-584x390 copy 2.jpg",
+      "PackagePath": "staticwebassets\\images\\muhammad-faiz-zulkeflee-qNCOVaOmzSo-unsplash-584x390 copy 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\muhammad-faiz-zulkeflee-qNCOVaOmzSo-unsplash-584x390 copy 3.jpg",
+      "PackagePath": "staticwebassets\\images\\muhammad-faiz-zulkeflee-qNCOVaOmzSo-unsplash-584x390 copy 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\muhammad-faiz-zulkeflee-qNCOVaOmzSo-unsplash-584x390 copy.jpg",
+      "PackagePath": "staticwebassets\\images\\muhammad-faiz-zulkeflee-qNCOVaOmzSo-unsplash-584x390 copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\muhammad-faiz-zulkeflee-qNCOVaOmzSo-unsplash-584x390.jpg",
+      "PackagePath": "staticwebassets\\images\\muhammad-faiz-zulkeflee-qNCOVaOmzSo-unsplash-584x390.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\newsfeed-icon copy 2.png",
+      "PackagePath": "staticwebassets\\images\\newsfeed-icon copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\newsfeed-icon copy 3.png",
+      "PackagePath": "staticwebassets\\images\\newsfeed-icon copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\newsfeed-icon copy 4.png",
+      "PackagePath": "staticwebassets\\images\\newsfeed-icon copy 4.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\newsfeed-icon copy.png",
+      "PackagePath": "staticwebassets\\images\\newsfeed-icon copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\newsfeed-icon.png",
+      "PackagePath": "staticwebassets\\images\\newsfeed-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\quest-open copy 2.png",
+      "PackagePath": "staticwebassets\\images\\quest-open copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\quest-open copy 3.png",
+      "PackagePath": "staticwebassets\\images\\quest-open copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\quest-open copy.png",
+      "PackagePath": "staticwebassets\\images\\quest-open copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\quest-open.png",
+      "PackagePath": "staticwebassets\\images\\quest-open.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\sad copy 2.png",
+      "PackagePath": "staticwebassets\\images\\sad copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\sad copy 3.png",
+      "PackagePath": "staticwebassets\\images\\sad copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\sad copy.png",
+      "PackagePath": "staticwebassets\\images\\sad copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\sad.png",
+      "PackagePath": "staticwebassets\\images\\sad.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tinh-gia.jpg",
+      "PackagePath": "staticwebassets\\images\\tinh-gia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (1) copy 2.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (1) copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (1) copy 3.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (1) copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (1) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (1) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (1).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (10) copy 2.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (10) copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (10) copy 3.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (10) copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (10) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (10) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (10).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (10).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (11) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (11) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (11).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (11).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (12) copy 2.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (12) copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (12) copy 3.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (12) copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (12) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (12) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (12).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (12).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (13) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (13) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (13).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (13).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (14) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (14) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (14).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (14).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (15) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (15) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (15).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (15).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (2) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (2) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (2).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (2).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (3) copy 2.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (3) copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (3) copy 3.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (3) copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (3) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (3) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (3).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (3).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (4) copy 2.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (4) copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (4) copy 3.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (4) copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (4) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (4) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (4).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (4).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (5) copy 2.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (5) copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (5) copy 3.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (5) copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (5) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (5) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (5).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (5).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (6) copy 2.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (6) copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (6) copy 3.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (6) copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (6) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (6) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (6).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (6).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (7) copy 2.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (7) copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (7) copy 3.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (7) copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (7) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (7) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (7).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (7).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (8) copy 2.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (8) copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (8) copy 3.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (8) copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (8) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (8) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (8).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (8).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (9) copy 2.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (9) copy 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (9) copy 3.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (9) copy 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (9) copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (9) copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống (9).png",
+      "PackagePath": "staticwebassets\\images\\tải xuống (9).png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống copy.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\tải xuống.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\vkfooterlogo.png",
+      "PackagePath": "staticwebassets\\images\\vkfooterlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\witch_by_real_sonkes-d8hv0b1 copy 2.jpg",
+      "PackagePath": "staticwebassets\\images\\witch_by_real_sonkes-d8hv0b1 copy 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\witch_by_real_sonkes-d8hv0b1 copy.jpg",
+      "PackagePath": "staticwebassets\\images\\witch_by_real_sonkes-d8hv0b1 copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\witch_by_real_sonkes-d8hv0b1.jpg",
+      "PackagePath": "staticwebassets\\images\\witch_by_real_sonkes-d8hv0b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\img\\background.jpg",
+      "PackagePath": "staticwebassets\\img\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\hightlight.js",
+      "PackagePath": "staticwebassets\\js\\hightlight.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\jquery-highlight-master.zip",
+      "PackagePath": "staticwebassets\\js\\jquery-highlight-master.zip"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\jquery-highlight-master\\.gitattributes",
+      "PackagePath": "staticwebassets\\js\\jquery-highlight-master\\.gitattributes"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\jquery-highlight-master\\.gitignore",
+      "PackagePath": "staticwebassets\\js\\jquery-highlight-master\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\jquery-highlight-master\\.prettierrc.yml",
+      "PackagePath": "staticwebassets\\js\\jquery-highlight-master\\.prettierrc.yml"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\jquery-highlight-master\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\js\\jquery-highlight-master\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\jquery-highlight-master\\README.md",
+      "PackagePath": "staticwebassets\\js\\jquery-highlight-master\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\jquery-highlight-master\\bower.json",
+      "PackagePath": "staticwebassets\\js\\jquery-highlight-master\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\jquery-highlight-master\\component.json",
+      "PackagePath": "staticwebassets\\js\\jquery-highlight-master\\component.json"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\jquery-highlight-master\\jquery.highlight.js",
+      "PackagePath": "staticwebassets\\js\\jquery-highlight-master\\jquery.highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\jquery-highlight-master\\package-lock.json",
+      "PackagePath": "staticwebassets\\js\\jquery-highlight-master\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\jquery-highlight-master\\package.json",
+      "PackagePath": "staticwebassets\\js\\jquery-highlight-master\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\jquery-highlight-master\\test\\index.html",
+      "PackagePath": "staticwebassets\\js\\jquery-highlight-master\\test\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\jquery-highlight-master\\test\\tests.js",
+      "PackagePath": "staticwebassets\\js\\jquery-highlight-master\\test\\tests.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\login.css",
+      "PackagePath": "staticwebassets\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\login.js",
+      "PackagePath": "staticwebassets\\login.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DoAnLapTrinhWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DoAnLapTrinhWeb.props",
+      "PackagePath": "build\\DoAnLapTrinhWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DoAnLapTrinhWeb.props",
+      "PackagePath": "buildMultiTargeting\\DoAnLapTrinhWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DoAnLapTrinhWeb.props",
+      "PackagePath": "buildTransitive\\DoAnLapTrinhWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
