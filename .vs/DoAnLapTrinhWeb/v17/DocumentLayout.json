@@ -1,34 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\",
+  "WorkspaceRootPath": "D:\\workspace\\DoAnLapTrinhWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\source\\repos\\doanlaptrinhweb\\doanlaptrinhweb\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\workspace\\doanlaptrinhweb\\doanlaptrinhweb\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\source\\repos\\doanlaptrinhweb\\doanlaptrinhweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\workspace\\doanlaptrinhweb\\doanlaptrinhweb\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\source\\repos\\doanlaptrinhweb\\doanlaptrinhweb\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\source\\repos\\doanlaptrinhweb\\doanlaptrinhweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\source\\repos\\doanlaptrinhweb\\doanlaptrinhweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\source\\repos\\doanlaptrinhweb\\doanlaptrinhweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\source\\repos\\doanlaptrinhweb\\doanlaptrinhweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\workspace\\doanlaptrinhweb\\doanlaptrinhweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,94 +30,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Profile.cshtml",
-              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Home\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Profile.cshtml",
-              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Home\\Profile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T04:12:02.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T04:02:30.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProfileViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\ProfileViewModel.cs",
-              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Models\\ProfileViewModel.cs",
-              "ToolTip": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\ProfileViewModel.cs",
-              "RelativeToolTip": "DoAnLapTrinhWeb\\Models\\ProfileViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T03:56:03.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMBAAAsAAAAAAAAAA==",
+              "Title": "ForgotPasswordConfirmation.cshtml",
+              "DocumentMoniker": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ToolTip": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T03:49:57.428Z",
+              "WhenOpened": "2025-06-09T13:43:25.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADwvzUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T03:45:54.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T03:40:15.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "DoAnLapTrinhWeb\\Models\\ErrorViewModel.cs",
+              "Title": "ForgotPasswordConfirmation.cshtml.cs",
+              "DocumentMoniker": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml.cs",
+              "ToolTip": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T04:05:18.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T13:43:23.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Program.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Program.cs",
+              "ToolTip": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Program.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T13:33:08.403Z"
             }
           ]
         }
