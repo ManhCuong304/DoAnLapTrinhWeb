@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj",
       "projectName": "DoAnLapTrinhWeb",
-      "projectPath": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj",
+      "projectPath": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj",
       "packagesPath": "C:\\Users\\Nmcuo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\obj\\",
+      "outputPath": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

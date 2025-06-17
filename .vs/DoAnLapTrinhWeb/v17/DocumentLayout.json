@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\",
+  "WorkspaceRootPath": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\source\\repos\\doanlaptrinhweb\\doanlaptrinhweb\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\doanlaptrinhweb\\doanlaptrinhweb\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\source\\repos\\doanlaptrinhweb\\doanlaptrinhweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\doanlaptrinhweb\\doanlaptrinhweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\source\\repos\\doanlaptrinhweb\\doanlaptrinhweb\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\doanlaptrinhweb\\doanlaptrinhweb\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\source\\repos\\doanlaptrinhweb\\doanlaptrinhweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\doanlaptrinhweb\\doanlaptrinhweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\source\\repos\\doanlaptrinhweb\\doanlaptrinhweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\doanlaptrinhweb\\doanlaptrinhweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\source\\repos\\doanlaptrinhweb\\doanlaptrinhweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\doanlaptrinhweb\\doanlaptrinhweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\source\\repos\\doanlaptrinhweb\\doanlaptrinhweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|c:\\users\\nmcuo\\doanlaptrinhweb\\doanlaptrinhweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,45 +38,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Profile.cshtml",
               "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Home\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Profile.cshtml",
               "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Home\\Profile.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T04:12:02.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T04:12:02.437Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T04:02:30.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T04:02:30.887Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProfileViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\ProfileViewModel.cs",
               "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Models\\ProfileViewModel.cs",
-              "ToolTip": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\ProfileViewModel.cs",
               "RelativeToolTip": "DoAnLapTrinhWeb\\Models\\ProfileViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,53 +97,59 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMBAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T03:49:57.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T03:49:57.428Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
               "RelativeToolTip": "DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABcAAAAAAAAAAADwvzUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T03:45:54.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T03:45:54.716Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAMcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T03:40:15.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T03:40:15.164Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Nmcuo\\source\\repos\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Nmcuo\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "DoAnLapTrinhWeb\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T04:05:18.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T04:05:18.68Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 244,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
             }
           ]
         }
