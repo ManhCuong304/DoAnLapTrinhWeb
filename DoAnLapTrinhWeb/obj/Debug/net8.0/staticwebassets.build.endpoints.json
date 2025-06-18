@@ -8865,6 +8865,88 @@
       ]
     },
     {
+      "Route": "images/avatar-default.svg",
+      "AssetFile": "images/avatar-default.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AWC7nvC3mGJaz2nP830RqS4P0jdyhoZezsKZf+raCN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 12:46:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AWC7nvC3mGJaz2nP830RqS4P0jdyhoZezsKZf+raCN0="
+        }
+      ]
+    },
+    {
+      "Route": "images/avatar-default.tlbtg811m9.svg",
+      "AssetFile": "images/avatar-default.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AWC7nvC3mGJaz2nP830RqS4P0jdyhoZezsKZf+raCN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 12:46:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tlbtg811m9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AWC7nvC3mGJaz2nP830RqS4P0jdyhoZezsKZf+raCN0="
+        },
+        {
+          "Name": "label",
+          "Value": "images/avatar-default.svg"
+        }
+      ]
+    },
+    {
       "Route": "images/banner-bg copy 2.png",
       "AssetFile": "images/banner-bg copy 2.png",
       "Selectors": [],

@@ -85,11 +85,13 @@
             </div>
         </div> -->
         <div class="header-actions header-seacher">
-            <div class="header-seach">
-                <input type="text" placeholder="Search here for people, groups and posts" class="header-seach-input">
+            <div class="header-seach" style="position: relative;">
+                <input name="query" type="text" placeholder="Search here for people, groups and posts" class="header-seach-input">
                 <i class="fas fa-search header-seach-icon"></i>
+                <div id="search-results" class="search-results"></div>
             </div>
         </div>
+
        
         <partial name="_LoginPartial"/>
         
@@ -182,6 +184,55 @@
             </div>
         </div>
     </footer>
+    <style>
+      
+        .search-results {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            max-height: 300px;
+            overflow-y: auto;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-top: 8px;
+            padding: 8px 0;
+            z-index: 999;
+            display: none; /* Ẩn mặc định */
+        }
+
+
+        .search-item {
+            padding: 10px 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: background 0.2s;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+            .search-item img {
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+                border: 2px solid #e0e0e0;
+            }
+
+            .search-item span {
+                font-weight: 500;
+                color: #333;
+                font-size: 16px;
+            }
+
+            .search-item:hover {
+                background-color: #f5f5f5;
+            }
+    
+    </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/is-in-viewport/3.0.4/isInViewport.min.js" integrity="sha512-eAT5Hvi9/Yx33YvSUPOpAYEA3HnUt5oKCSyPGRQwNgqD7K/90JRpFnkaL1M6ROZtLkckQKJ4WYh9cS7Urr4YjA==" crossorigin="anonymous"></script>
     <script src="./js/lightbox-plus-jquery.min.js"></script>
@@ -191,3 +242,55 @@
     @RenderSection("Scripts", required: false)
 </body>
 </html>
+
+<script>
+        const getSearchUser = (query) => {
+            const resultContainer = document.getElementById('search-results');
+
+            fetch(`/Profile/SearchProfile?query=${encodeURIComponent(query)}`, {
+                method: "GET"
+            })
+            .then(res => res.json())
+            .then(data => {
+                resultContainer.innerHTML = '';
+
+                if (data.length === 0) {
+                    resultContainer.innerHTML = '<div class="search-item"><span>Không tìm thấy kết quả</span></div>';
+                    resultContainer.style.display = 'block';
+                    return;
+                }
+
+                data.forEach(user => {
+                    resultContainer.innerHTML += `
+                        <a class="search-item" href="/Profile/ProfileDetail/${user.id}">
+                            <img src="${user.image}" alt="Avatar" />
+                            <span>${user.fullName}</span>
+                        </a>
+                    `;
+                });
+
+                resultContainer.style.display = 'block';
+            })
+            .catch(err => {
+                console.log("Không Thành Công", err);
+                resultContainer.style.display = 'none';
+            });
+    };
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const searchInput = document.querySelector('.header-seach-input');
+        const resultContainer = document.getElementById('search-results');
+
+        searchInput.addEventListener('input', function () {
+            const query = this.value.trim();
+            if (query.length > 0) {
+                getSearchUser(query);
+            } else {
+                resultContainer.innerHTML = '';
+                resultContainer.style.display = 'none';
+            }
+        });
+    });
+
+</script>
+

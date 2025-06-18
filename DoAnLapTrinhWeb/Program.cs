@@ -1,4 +1,5 @@
-﻿using DoAnLapTrinhWeb.Models;
+﻿using DoAnLapTrinhWeb.Helpers;
+using DoAnLapTrinhWeb.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Identity;
@@ -6,6 +7,13 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+var webSocketOptions = new WebSocketOptions
+{
+    KeepAliveInterval = TimeSpan.FromSeconds(120),
+    AllowedOrigins = { "*" } // Hoặc chỉ định origin cụ thể
+};
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -23,6 +31,8 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
     .AddDefaultTokenProviders();
 
 builder.Services.AddTransient<IEmailSender, DoAnLapTrinhWeb.Services.StmpEmailSender>();
+
+
 
 builder.Services.AddAuthentication(options =>
 {
@@ -43,6 +53,28 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
+
+app.UseWebSockets(webSocketOptions);
+
+app.Use(async (context, next) =>
+{
+    if (context.Request.Path == "/ws")
+    {
+        if (context.WebSockets.IsWebSocketRequest)
+        {
+            var webSocket = await context.WebSockets.AcceptWebSocketAsync();
+            await WebSocketHandler.Handle(context, webSocket);
+        }
+        else
+        {
+            context.Response.StatusCode = 400;
+        }
+    }
+    else
+    {
+        await next();
+    }
+});
 
 app.UseStaticFiles();
 

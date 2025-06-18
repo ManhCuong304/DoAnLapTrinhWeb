@@ -43,6 +43,7 @@ wwwroot\images\av8.jpg
 wwwroot\images\av9.jpg
 wwwroot\images\avata1.jpg
 wwwroot\images\avata2.jpg
+wwwroot\images\avatar-default.svg
 wwwroot\images\av-hoang.jpg
 wwwroot\images\av-hung.jpg
 wwwroot\images\av-tuan.jpg

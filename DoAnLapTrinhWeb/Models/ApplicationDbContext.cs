@@ -8,5 +8,28 @@ namespace DoAnLapTrinhWeb.Models
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext>options) : base(options) { 
         
         }
+
+        public DbSet<Follow>Follow { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+
+            builder.Entity<Follow>()
+                .HasKey(f => new { f.FollowerId, f.FollowingId });
+
+            builder.Entity<Follow>()
+                .HasOne(f => f.Follower)
+                .WithMany(u => u.Followings)
+                .HasForeignKey(f => f.FollowerId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.Entity<Follow>()
+                .HasOne(f => f.Following)
+                .WithMany(u => u.Followers)
+                .HasForeignKey(f => f.FollowingId)
+                .OnDelete(DeleteBehavior.Restrict);
+        }
+
     }
 }

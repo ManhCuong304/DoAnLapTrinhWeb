@@ -1,4 +1,8 @@
-﻿<nav class="nav-short delay">
+﻿@{
+    var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+}
+
+<nav class="nav-short delay">
     <div class="nav-short__item nav-short__item-news nav-short__item--active">
         <span class="nav-short__item-link">
             <i class="nav-short__icon fas fa-tv"></i>
@@ -809,48 +813,9 @@
                 </div>
                 <div class="new-right grid__column-3">
                     <div class="newest">
-                        <p class="heading">Popular Groups</p>
-                        <div class="user">
-                            <div class="user-info">
-                                <img src="./images/125567116_10222037693864792_3083228917287898622_o.jpg" alt="" class="user-info__img-1">
-                                <div class="user-info__list">
-                                    <a class="user-info__list-name">UIT K13 (Khóa 2018)</a>
-                                    <p class="user-info__list-status">4000 members</p>
-                                </div>
-                            </div>
-                            <div class="user-info">
-                                <img src="./images/117251156_780671119335149_3490588943834725576_o copy.jpg" alt="" class="user-info__img-1">
-                                <div class="user-info__list">
-                                    <a class="user-info__list-name">
-                                        We are one!!!
-                                    </a>
-                                    <p class="user-info__list-status">37 members</p>
-                                </div>
-                            </div>
-                            <div class="user-info">
-                                <img src="./images/jeshoots-com-250229-unsplash-584x389.jpg" alt="" class="user-info__img-1">
-                                <div class="user-info__list">
-                                    <a class="user-info__list-name">Gaming Video Creator</a>
-                                    <p class="user-info__list-status">10 members</p>
-                                </div>
-                            </div>
-                            <div class="user-info">
-                                <img src="./images/118715108_338880747261111_5322256351393249662_n.jpg" alt="" class="user-info__img-1">
-                                <div class="user-info__list">
-                                    <a class="user-info__list-name">Bộ tộc Mixigaming</a>
-                                    <p class="user-info__list-status">6000 members</p>
-                                </div>
-                            </div>
-                            <div class="user-info">
-                                <img src="./images/tinh-gia.jpg" alt="" class="user-info__img-1">
-                                <div class="user-info__list">
-                                    <a class="user-info__list-name">
-                                        THPT Tĩnh Gia II
-                                     </a>
-                                    <p class="user-info__list-status">42 members</p>
-                                </div>
-                            </div>
-                        </div>
+                        <p class="heading">Friends</p>
+                    <div id="friends-container" class="friends-container"></div>
+                    <div id="chat-container" style="position: fixed; bottom: 0; right: 20px; display: flex; gap: 10px; z-index: 1000;"></div>
                     </div>
                     
                 </div>
@@ -4534,3 +4499,217 @@
                 </div>
             </div>
         </div>
+
+    <style>
+        .user {
+            
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            transition: all 0.3s;
+        }
+
+            .user:hover {
+                background: #f1f1f1;
+                cursor: pointer;
+            }
+
+        .user-info__img-1 {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 12px;
+        }
+
+        .user-info__list-name {
+            font-weight: 600;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .user-info__list-status {
+            font-size: 13px;
+            color: #888;
+        }
+
+        .chat-box {
+            width: 320px;
+            max-height: 400px;
+            background: white;
+            border-radius: 16px 16px 0 0;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .chat-header {
+            background: #0d6efd;
+            color: white;
+            padding: 10px 14px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chat-messages {
+            padding: 10px;
+            height: 240px;
+            overflow-y: auto;
+            background-color: #f9f9f9;
+        }
+
+        .chat-input {
+            padding: 10px;
+            display: flex;
+            gap: 8px;
+            border-top: 1px solid #ddd;
+        }
+
+            .chat-input input {
+                flex: 1;
+                padding: 8px 10px;
+                border: 1px solid #ccc;
+                border-radius: 20px;
+                outline: none;
+            }
+
+            .chat-input button {
+                background: #0d6efd;
+                color: white;
+                border: none;
+                border-radius: 20px;
+                padding: 8px 16px;
+                cursor: pointer;
+                transition: background 0.2s;
+            }
+
+                .chat-input button:hover {
+                    background: #0056d2;
+                }
+
+        .my-message {
+            text-align: right;
+            background-color: #dcf8c6;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        .chat-messages div {
+            margin-bottom: 5px;
+        }
+    </style>
+
+
+
+<script>
+    const GetFriends = () => {
+        fetch("http://localhost:5056/home/getfriends")
+            .then(res => res.json())
+            .then(data => {
+                const container = document.getElementById("friends-container");
+                container.innerHTML = "";
+
+                data.forEach(friend => {
+                    const fullName = friend.fullName || "Không rõ tên";
+                    const image = friend.image || "/images/avatar-default.svg";
+
+                    const friendDiv = document.createElement("div");
+                    friendDiv.classList.add("user");
+
+                    friendDiv.innerHTML = `
+                        <div class="d-flex">
+                                <img src="${image}" alt="avatar" class="user-info__img-1">
+                                <div class="user-info__list">
+                                    <div class="user-info__list-name">${fullName}</div>
+                                    <div class="user-info__list-status">${friend.userName}</div>
+                                </div>
+                        </div>
+                    `;
+
+                    friendDiv.addEventListener("click", () => {
+                        openChatBox(friend);
+                    });
+
+                    container.appendChild(friendDiv);
+                });
+            })
+            .catch(err => console.error("Lỗi khi lấy bạn bè: ", err));
+    }
+
+    const openChatBox = (friend) => {
+        const chatContainer = document.getElementById("chat-container");
+        const chatId = `chat-${friend.id}`;
+
+        if (document.getElementById(chatId)) return;
+
+        const chatBox = document.createElement("div");
+        chatBox.id = chatId;
+        chatBox.classList.add("chat-box");
+
+                chatBox.innerHTML = `
+            <div class="chat-header">
+                <span>${friend.fullName}</span>
+                <button onclick="document.getElementById('${chatId}').remove()">✖</button>
+            </div>
+            <div class="chat-messages">
+                <div><i>Tin nhắn sẽ hiển thị ở đây...</i></div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Nhập tin nhắn..." />
+                <button onclick="sendMessage('${friend.id}')">Gửi</button>
+            </div>
+        `;
+
+
+        chatContainer.appendChild(chatBox);
+    }
+
+    GetFriends();
+
+    const currentUserId = "@userId";
+    const ws = new WebSocket(`ws://localhost:5000/ws?userId=${currentUserId}`);
+
+    ws.onmessage = function (event) {
+       const data = JSON.parse(event.data); // Giả sử bạn gửi JSON { toId, fromId, message }
+       const chatBox = document.getElementById(`chat-${data.fromId}`);
+       if (chatBox) {
+           const messagesDiv = chatBox.querySelector(".chat-messages");
+           const msg = document.createElement("div");
+           msg.textContent = data.message;
+           messagesDiv.appendChild(msg);
+       }
+    };
+
+
+    function sendMessage(toId) {
+       const input = document.querySelector(`#chat-${toId} input`);
+       const message = input.value.trim();
+       if (!message) return; // Không gửi tin nhắn rỗng
+            const payload = {
+                toId: toId,
+                message: message
+            };
+            ws.send(JSON.stringify(payload));
+            input.value = '';
+            const chatBox = document.getElementById(`chat-${toId}`);
+            if (chatBox) {
+                const messagesDiv = chatBox.querySelector(".chat-messages");
+                const msg = document.createElement("div");
+                msg.textContent = message;
+                msg.classList.add("my-message"); 
+                messagesDiv.appendChild(msg);
+            }
+        }
+
+
+</script>
+
+
+

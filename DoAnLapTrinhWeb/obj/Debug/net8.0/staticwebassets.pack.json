@@ -325,6 +325,10 @@
       "PackagePath": "staticwebassets\\images\\avata2.jpg"
     },
     {
+      "Id": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\avatar-default.svg",
+      "PackagePath": "staticwebassets\\images\\avatar-default.svg"
+    },
+    {
       "Id": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\wwwroot\\images\\banner-bg copy 2.png",
       "PackagePath": "staticwebassets\\images\\banner-bg copy 2.png"
     },

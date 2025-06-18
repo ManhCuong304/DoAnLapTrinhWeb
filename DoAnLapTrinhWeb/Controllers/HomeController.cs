@@ -1,5 +1,7 @@
 ﻿using DoAnLapTrinhWeb.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Diagnostics;
@@ -9,10 +11,43 @@ namespace DoAnLapTrinhWeb.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly ApplicationDbContext _context;
+        public HomeController(ILogger<HomeController> logger, ApplicationDbContext context, UserManager<ApplicationUser> userManager)
         {
             _logger = logger;
+            _context = context;
+            _userManager = userManager;
+        }
+
+        public async Task<IActionResult> GetFriends()
+        {
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+                return RedirectToAction("Login", "Account");
+
+            var currentUserId = currentUser.Id;
+
+            // Lấy danh sách người mình follow
+            var followingIds = await _context.Follow
+                .Where(f => f.FollowerId == currentUserId)
+                .Select(f => f.FollowingId)
+                .ToListAsync();
+
+            // Lấy danh sách người follow mình
+            var followerIds = await _context.Follow
+                .Where(f => f.FollowingId == currentUserId)
+                .Select(f => f.FollowerId)
+                .ToListAsync();
+
+            // Tìm danh sách mutual friends (bạn bè)
+            var friendIds = followingIds.Intersect(followerIds).ToList();
+
+            // Lấy thông tin người dùng từ danh sách friendIds
+            var friends = await _context.Users
+                .Where(u => friendIds.Contains(u.Id))
+                .ToListAsync();
+            return Json(friends);
         }
 
         public IActionResult Index()
