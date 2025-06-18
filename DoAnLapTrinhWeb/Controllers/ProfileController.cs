@@ -1,4 +1,5 @@
 ﻿using DoAnLapTrinhWeb.Models;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,11 +10,15 @@ namespace DoAnLapTrinhWeb.Controllers
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public ProfileController(UserManager<ApplicationUser>userManager, ApplicationDbContext context)
+
+        public ProfileController(UserManager<ApplicationUser>userManager, ApplicationDbContext context, IWebHostEnvironment webHostEnvironment)
         {
             _userManager = userManager;
             _context = context;
+            _webHostEnvironment = webHostEnvironment;
+
         }
         public async Task<IActionResult> Index()
         {
@@ -108,6 +113,34 @@ namespace DoAnLapTrinhWeb.Controllers
 
             await _context.SaveChangesAsync();
             return Json("Thành Công");
+        }
+        [HttpPost]
+        public async Task<IActionResult> EditProfile(ProfileViewModel model)
+        {
+            var user = await _userManager.GetUserAsync(User);
+
+            user.FullName = model.FullName;
+            user.UserName = model.Nickname;
+            user.Description = model.Description;
+
+            if (model.Avatar != null)
+            {
+                var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images", "avatars");
+                Directory.CreateDirectory(uploadsFolder);
+
+                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(model.Avatar.FileName);
+                var filePath = Path.Combine(uploadsFolder, fileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await model.Avatar.CopyToAsync(fileStream);
+                }
+
+                user.Image = "/images/avatars/" + fileName;
+            }
+
+            await _userManager.UpdateAsync(user);
+            return RedirectToAction("Index");
         }
 
 
