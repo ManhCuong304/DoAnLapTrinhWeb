@@ -1,59 +1,82 @@
 ﻿using System.Net.WebSockets;
 using System.Text;
 using System.Text.Json;
+using DoAnLapTrinhWeb.Services;
 using Microsoft.AspNetCore.Http;
 
 namespace DoAnLapTrinhWeb.Helpers
 {
-    // Lớp đại diện cho payload tin nhắn nhận từ client
     public class ChatMessagePayload
     {
-        public string ToId { get; set; }    // ID người nhận
-        public string Message { get; set; } // Nội dung tin nhắn
+        public string ToId { get; set; }
+        public string Message { get; set; }
     }
 
     public static class WebSocketHandler
     {
-        // Danh sách người dùng đang kết nối (userId => WebSocket)
         private static readonly Dictionary<string, WebSocket> _userSockets = new();
 
-        public static async Task Handle(HttpContext context, WebSocket socket)
+        public static async Task Handle(HttpContext context, WebSocket socket, MessageService messageService)
         {
-            // Lấy userId từ HttpContext
             var userId = context.Request.Query["userId"].ToString();
             if (string.IsNullOrEmpty(userId))
             {
-                Console.WriteLine("userId bị thiếu, không thể kết nối WebSocket.");
+                Console.WriteLine("❌ userId bị thiếu.");
+                await socket.CloseAsync(WebSocketCloseStatus.NormalClosure, "Thiếu userId", CancellationToken.None);
                 return;
             }
-            // Gắn socket vào user
-            if (_userSockets.ContainsKey(userId))
-                _userSockets[userId] = socket;
-            else
-                _userSockets.Add(userId, socket);
+
+            Console.WriteLine($"🟢 {userId} đã kết nối WebSocket");
+            _userSockets[userId] = socket;
 
             var buffer = new byte[1024 * 4];
-            var result = await socket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
 
-            while (!result.CloseStatus.HasValue)
+            try
             {
-                var messageJson = Encoding.UTF8.GetString(buffer, 0, result.Count);
-
-                try
+                while (true)
                 {
-                    // Giải mã JSON thành đối tượng
-                    var messageData = JsonSerializer.Deserialize<ChatMessagePayload>(messageJson);
+                    var result = await socket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
+                    if (result.CloseStatus.HasValue)
+                        break;
 
-                    if (messageData != null && !string.IsNullOrEmpty(messageData.ToId))
+                    var messageJson = Encoding.UTF8.GetString(buffer, 0, result.Count);
+                    Console.WriteLine($"📥 Dữ liệu JSON nhận được: {messageJson}");
+
+                    try
                     {
+                        var messageData = JsonSerializer.Deserialize<ChatMessagePayload>(messageJson, new JsonSerializerOptions
+                        {
+                            PropertyNameCaseInsensitive = true
+                        });
+
+                        if (messageData == null || string.IsNullOrEmpty(messageData.ToId) || string.IsNullOrEmpty(messageData.Message))
+                        {
+                            Console.WriteLine($"⚠️ Dữ liệu không hợp lệ: ToId={messageData?.ToId}, Message={messageData?.Message}");
+                            continue;
+                        }
+
+                        Console.WriteLine($"📨 {userId} gửi đến {messageData.ToId}: {messageData.Message}");
+
+                        // ✅ Lưu tin nhắn vào DB nhưng không chặn việc gửi WebSocket
+                        _ = Task.Run(async () =>
+                        {
+                            try
+                            {
+                                await messageService.SaveMessageAsync(userId, messageData.ToId, messageData.Message);
+                            }
+                            catch (Exception saveEx)
+                            {
+                                Console.WriteLine($"❌ Lỗi khi lưu tin nhắn vào DB: {saveEx.Message}");
+                            }
+                        });
+
                         var formattedMessage = JsonSerializer.Serialize(new
                         {
                             fromId = userId,
                             message = messageData.Message
                         });
 
-                        if (_userSockets.TryGetValue(messageData.ToId, out var receiverSocket)
-                            && receiverSocket.State == WebSocketState.Open)
+                        if (_userSockets.TryGetValue(messageData.ToId, out var receiverSocket) && receiverSocket.State == WebSocketState.Open)
                         {
                             var sendBuffer = Encoding.UTF8.GetBytes(formattedMessage);
                             await receiverSocket.SendAsync(
@@ -62,21 +85,34 @@ namespace DoAnLapTrinhWeb.Helpers
                                 true,
                                 CancellationToken.None
                             );
+                            Console.WriteLine($"✅ Tin nhắn đã gửi đến {messageData.ToId}");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"⚠️ Không tìm thấy hoặc socket đã đóng của {messageData.ToId}");
+                            Console.WriteLine("🧾 Danh sách user đang kết nối:");
+                            foreach (var kv in _userSockets)
+                                Console.WriteLine($"- {kv.Key} : {kv.Value.State}");
                         }
                     }
+                    catch (JsonException ex)
+                    {
+                        Console.WriteLine($"❌ Lỗi giải mã JSON: {ex.Message}. JSON gốc: {messageJson}");
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"❌ Lỗi xử lý tin nhắn: {ex.Message}");
+                    }
                 }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Lỗi khi xử lý tin nhắn JSON: " + ex.Message);
-                }
-
-                // Tiếp tục lắng nghe tin nhắn
-                result = await socket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ Lỗi kết nối với {userId}: {ex.Message}\nStackTrace: {ex.StackTrace}");
             }
 
-            // Khi đóng kết nối
+            Console.WriteLine($"🔴 Ngắt kết nối: {userId}");
             _userSockets.Remove(userId);
-            await socket.CloseAsync(result.CloseStatus.Value, result.CloseStatusDescription, CancellationToken.None);
+            await socket.CloseAsync(WebSocketCloseStatus.NormalClosure, "Ngắt kết nối", CancellationToken.None);
         }
     }
 }

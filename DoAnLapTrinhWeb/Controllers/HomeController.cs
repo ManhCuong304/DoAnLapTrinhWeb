@@ -50,8 +50,11 @@ namespace DoAnLapTrinhWeb.Controllers
             return Json(friends);
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            var currentUser = await _userManager.GetUserAsync(User);
+            var currentUserId = currentUser?.Id;
+            ViewBag.userId = currentUserId;
             return View();
         }
 

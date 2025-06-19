@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\workspace\\DoAnLapTrinhWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\workspace\\doanlaptrinhweb\\doanlaptrinhweb\\helpers\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\helpers\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\workspace\\doanlaptrinhweb\\doanlaptrinhweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\workspace\\doanlaptrinhweb\\doanlaptrinhweb\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\workspace\\doanlaptrinhweb\\doanlaptrinhweb\\helpers\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\helpers\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\workspace\\doanlaptrinhweb\\doanlaptrinhweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\workspace\\doanlaptrinhweb\\doanlaptrinhweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\workspace\\doanlaptrinhweb\\doanlaptrinhweb\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\workspace\\doanlaptrinhweb\\doanlaptrinhweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\workspace\\doanlaptrinhweb\\doanlaptrinhweb\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\workspace\\doanlaptrinhweb\\doanlaptrinhweb\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\workspace\\doanlaptrinhweb\\doanlaptrinhweb\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8FFB188-6695-423D-A01F-7F30D763F4D6}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WebSocketHandler.cs",
-              "DocumentMoniker": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Helpers\\WebSocketHandler.cs",
-              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Helpers\\WebSocketHandler.cs",
-              "ToolTip": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Helpers\\WebSocketHandler.cs",
-              "RelativeToolTip": "DoAnLapTrinhWeb\\Helpers\\WebSocketHandler.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAmwEYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T13:04:11.997Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,45 +52,88 @@
               "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Program.cs",
               "ToolTip": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Program.cs",
               "RelativeToolTip": "DoAnLapTrinhWeb\\Program.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAmwFQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T13:00:50.342Z"
+              "WhenOpened": "2025-06-19T06:03:50.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Controllers\\ProfileController.cs",
-              "ToolTip": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "DoAnLapTrinhWeb\\Controllers\\ProfileController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MessagesController.cs",
+              "DocumentMoniker": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\MessagesController.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Controllers\\MessagesController.cs",
+              "ToolTip": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\MessagesController.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Controllers\\MessagesController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T12:32:49.301Z"
+              "WhenOpened": "2025-06-19T05:57:48.923Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAFMSAAAAAAAAAAAWwGgSAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEASAAAAAAAAAAAmwEgSAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-17T12:25:25.508Z"
+              "WhenOpened": "2025-06-19T05:55:18.186Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAwAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "WebSocketHandler.cs",
+              "DocumentMoniker": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Helpers\\WebSocketHandler.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Helpers\\WebSocketHandler.cs",
+              "ToolTip": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Helpers\\WebSocketHandler.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Helpers\\WebSocketHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T12:25:21.302Z"
+              "WhenOpened": "2025-06-18T13:18:00.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Services\\MessageService.cs",
+              "ToolTip": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Services\\MessageService.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Services\\MessageService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:15:09.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Models\\Message.cs",
+              "ToolTip": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\Message.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:11:18.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\workspace\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:09:13.232Z",
+              "EditorCaption": ""
             }
           ]
         }

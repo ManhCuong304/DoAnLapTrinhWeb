@@ -1,5 +1,6 @@
 ﻿using DoAnLapTrinhWeb.Helpers;
 using DoAnLapTrinhWeb.Models;
+using DoAnLapTrinhWeb.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Identity;
@@ -31,7 +32,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
     .AddDefaultTokenProviders();
 
 builder.Services.AddTransient<IEmailSender, DoAnLapTrinhWeb.Services.StmpEmailSender>();
-
+builder.Services.AddScoped<MessageService>();
 
 
 builder.Services.AddAuthentication(options =>
@@ -58,23 +59,19 @@ app.UseWebSockets(webSocketOptions);
 
 app.Use(async (context, next) =>
 {
-    if (context.Request.Path == "/ws")
+    if (context.Request.Path == "/ws" && context.WebSockets.IsWebSocketRequest)
     {
-        if (context.WebSockets.IsWebSocketRequest)
-        {
-            var webSocket = await context.WebSockets.AcceptWebSocketAsync();
-            await WebSocketHandler.Handle(context, webSocket);
-        }
-        else
-        {
-            context.Response.StatusCode = 400;
-        }
+        var socket = await context.WebSockets.AcceptWebSocketAsync();
+        var messageService = context.RequestServices.GetRequiredService<MessageService>();
+
+        await WebSocketHandler.Handle(context, socket, messageService);
     }
     else
     {
         await next();
     }
 });
+
 
 app.UseStaticFiles();
 
