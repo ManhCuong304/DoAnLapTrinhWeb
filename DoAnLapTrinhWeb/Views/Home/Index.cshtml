@@ -1,6 +1,8 @@
-﻿@{
+﻿@model DoAnLapTrinhWeb.Models.Post
+@{
     var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
 }
+
 
 <nav class="nav-short delay">
     <div class="nav-short__item nav-short__item-news nav-short__item--active">
@@ -135,682 +137,54 @@
                     </div>
                    
                 </div>
+
+                @* Xử Lý ở đây *@
+
                 <div class="new-center grid__column-6">
-                    <div class="quick-filter">
-                        <p class="quick-filters-tab">All Updates</p>
-                        <div class="quick-filters-form">
-                            <span class="show">Show</span>
-                            <select name="" id="">
-                                <option value="Everything">Everything</option>
-                                <option value="Status">Status</option>
-                                <option value="Share">Share</option>
-                                <option value="Media">Media</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="widget-box media">
-                        <div class="widget-box-status">
-                            <div class="user-status">
-                                <div class="user-status__avatar">
-                                    <img src="./images/118391134_850516805482962_3300234423537028625_n.jpg" alt="">
-                                </div>
-                                <div class="user-status__info">
-                                    <span class="user-status__info-name">
-                                        <a href="">Nguyễn Hưng</a>
-                                        posted an update
-                                    </span>
-                                    <p class="user-status__info-time">2 days ago</p>
-                                </div>
+
+                <button type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-outline-danger" style="width:100%">Thêm Bài Viết</button>
+
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Thêm Bài Viết</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                             </div>
-                            <p class="user-status-text">
-                                Check out this tutorial!!
-                                <a href=" https://www.youtube.com/watch?v=elFHdvvessk" target="_blank"> https://www.youtube.com/watch?v=elFHdvvessk</a>
-                            </p>
-                        </div>
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/elFHdvvessk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
-                        <div class="content-actions">
-                            <div class="content-action content-action__react">
-                                <i class="far fa-thumbs-up"></i>
-                                <span class="content-action-text">React</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="far fa-comment-alt"></i>
-                                <span class="content-action-text">Comment</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="fas fa-share"></i>
-                                <span class="content-action-text">Share</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="widget-box share">
-                        <div class="widget-box-status">
-                            <div class="user-status">
-                                <div class="user-status__avatar">
-                                    <img src="./images/118391134_850516805482962_3300234423537028625_n.jpg" alt="">
-                                </div>
-                                <div class="user-status__info">
-                                    <span class="user-status__info-name">
-                                        <a href="">Nguyễn Hưng</a>
-                                        shared a post
-                                    </span>
-                                    <p class="user-status__info-time">4 days ago</p>
-                                </div>
-                            </div>
-                            <p class="user-status-text">
-                                This is a shared blog post!
-                            </p>
-                        </div>
-                        <div class="box-share">
-                            <div class="posted-item-new">
-                                <a href="">
-                                    <div class="posted-item-image" style="background-image: url(./images/lukas-eggers-_rKl0w9BdiM-unsplash.jpg);"></div>
-                                </a>
-                                <div class="content-action-post">
-                                    <div class="content-action-active">
-                                        <div class="content-action-icon">
-                                            <i class="fab fa-gratipay content-action-react content-action-love"></i>
-                                            <i class="fas fa-angry content-action-react content-action-care content-action-react__move-1"></i>
-                                        </div>
-                                        <span class="content-action-quantity">2</span>
-                                        <div class="react-modal">
-                                            <div class="react-box">
-                                                <div class="react-box__title">
-                                                    <ul class="react-box__title-list">
-                                                        <li class="react-box__title-item react-box__title-all active-blog">
-                                                            All: 2
-                                                        </li>
-                                                        <li class="react-box__title-item react-box__title-love">
-                                                            <i class="fab fa-gratipay content-action-love"></i>
-                                                            <span class="react-quantity">1</span> 
-                                                        </li>
-                                                        <li class="react-box__title-item react-box__title-care">
-                                                            <i class="fas fa-angry content-action-react content-action-care"></i>
-                                                            <span class="react-quantity">1</span> 
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="users-box users-box-all">
-                                                    <div class="users-box__list">
-                                                        <div class="user-info-blog">
-                                                            <img src="./images/117251156_780671119335149_3490588943834725576_o.jpg" alt="" class="user-info__img">
-                                                            <div class="user-info__list-blog">
-                                                                <a class="user-info__list-nameblog">Tống Hoàng</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="add-box">
-                                                            <i class="fas fa-user-plus"></i>
-                                                            <span class="add-title">Add Friend</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="users-box__list">
-                                                        <div class="user-info-blog">
-                                                            <img src="./images/5f6e4a8528f4e-bpfull.jpg" alt="" class="user-info__img">
-                                                            <div class="user-info__list-blog">
-                                                                <a class="user-info__list-nameblog">Nguyễn Hưng</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="add-box">
-                                                            <i class="fas fa-user-plus"></i>
-                                                            <span class="add-title">Add Friend</span>
-                                                        </div>
-                                                    </div>                                         
-                                                </div>
-                                                <div class="users-box users-box-love users-box__show">
-                                                    <div class="users-box__list">
-                                                        <div class="user-info-blog">
-                                                            <img src="./images/117251156_780671119335149_3490588943834725576_o.jpg" alt="" class="user-info__img">
-                                                            <div class="user-info__list-blog">
-                                                                <a class="user-info__list-nameblog">Tống Hoàng</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="add-box">
-                                                            <i class="fas fa-user-plus"></i>
-                                                            <span class="add-title">Add Friend</span>
-                                                        </div>
-                                                    </div>
-                                                                                          
-                                                </div>
-                                                <div class="users-box users-box-care users-box__show">
-                                                    <div class="users-box__list">
-                                                        <div class="user-info-blog">
-                                                            <img src="./images/5f6e4a8528f4e-bpfull.jpg" alt="" class="user-info__img">
-                                                            <div class="user-info__list-blog">
-                                                                <a class="user-info__list-nameblog">Nguyễn Hưng</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="add-box">
-                                                            <i class="fas fa-user-plus"></i>
-                                                            <span class="add-title">Add Friend</span>
-                                                        </div>
-                                                    </div>                                         
-                                                </div>
-                                                <div class="react-modal__quite">
-                                                    <i class="fas fa-times"></i>
-                                                </div>
-                                            </div>
-                                        </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <form asp-action="AddPost" asp-controller="Home" method="post" enctype="multipart/form-data">
+                                    <div class="mb-3">
+                                        <textarea asp-for="Content" class="form-control" rows="3" placeholder="Bạn đang nghĩ gì?"></textarea>
+                                        <span asp-validation-for="Content" class="text-danger"></span>
                                     </div>
-                                    <div class="content-action-box">
-                                        <a href="" class="content-action-box__react">0 Comments</a>
-                                        <a href="" class="content-action-box__share">0 Shares</a>
+
+                                    <div class="mb-3">
+                                        <input type="file" name="imageFile" class="form-control" />
                                     </div>
-                                </div>
-                                <div class="posted-item-info">
-                                    <p class="posted-item-typetime">
-                                        <a href="">GAMING</a>
-                                        - SEPTEMBER 2,2020
-                                    </p>
-                                    <p class="posted-item-title">Here’s the how and why did I became a full time Gaming Streamer</p>
-                                    <p class="posted-item-text">
-                                        An online streamer, also known as a live streamer, internet streamer, or streamer, is a person who broadcasts themself online through a live stream or pre-recorded video. The scope of online streamers has grown to includ...
-                                    </p>
-                                    <a href="" class="posted-item-link">READ MORE...</a>
-                                </div>
+
+
+
+                                    <button type="submit" class="btn btn-primary w-100">Đăng</button>
+                                </form>
                             </div>
-                        </div>
-                        <div class="content-actions">
-                            <div class="content-action content-action__react">
-                                <i class="far fa-thumbs-up"></i>
-                                <span class="content-action-text">React</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="far fa-comment-alt"></i>
-                                <span class="content-action-text">Comment</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="fas fa-share"></i>
-                                <span class="content-action-text">Share</span>
-                            </div>
-                        </div>
-                    </div>
-                <div class="widget-box media">
-                    <div class="widget-box-status">
-                        <div class="user-status">
-                            <div class="user-status__avatar">
-                                <img src="./images/117251156_780671119335149_3490588943834725576_o.jpg" alt="">
-                            </div>
-                            <div class="user-status__info">
-                                <span class="user-status__info-name">
-                                    <a href="">Tống Hoàng</a> posted an update
-                                </span>
-                                <p class="user-status__info-time">1 week ago</p>
-                                <!-- Nút Follow -->
-                                <button class="follow-button">Follow</button>
-                            </div>
-                        </div>
-                        <p class="user-status-text">
-                            Kevin De Bruyne!
-                        </p>
-                    </div>
-                    <img style="max-width: 100%;" src="./images/KDB.jpg" alt="">
-                    <div class="content-actions">
-                        <div class="content-action content-action__react">
-                            <i class="far fa-thumbs-up"></i>
-                            <span class="content-action-text">React</span>
-                        </div>
-                        <div class="content-action">
-                            <i class="far fa-comment-alt"></i>
-                            <span class="content-action-text">Comment</span>
-                        </div>
-                        <div class="content-action">
-                            <i class="fas fa-share"></i>
-                            <span class="content-action-text">Share</span>
+
+
                         </div>
                     </div>
                 </div>
 
-                    <div class="widget-box share">
-                        <div class="widget-box-status">
-                            <div class="user-status">
-                                <div class="user-status__avatar">
-                                    <img src="./images/118391134_850516805482962_3300234423537028625_n.jpg" alt="">
-                                </div>
-                                <div class="user-status__info">
-                                    <span class="user-status__info-name">
-                                        <a href="">Nguyễn Hưng</a>
-                                        shared a post
-                                    </span>
-                                    <p class="user-status__info-time">4 days ago</p>
-                                </div>
-                            </div>
-                            <p class="user-status-text">
-                                This is a shared blog post!
-                            </p>
-                        </div>
-                        <div class="box-share">
-                            <div class="posted-item-new">
-                                <a href="">
-                                    <div class="posted-item-image" style="background-image: url(./images/muhammad-faiz-zulkeflee-qNCOVaOmzSo-unsplash-584x390.jpg);"></div>
-                                </a>
-                                <div class="content-action-post">
-                                    <div class="content-action-active">
-                                        <div class="content-action-icon">
-                                            <i class="fas fa-thumbs-up content-action-react content-action-like"></i>
-                                            <i class="fab fa-gratipay content-action-react content-action-love content-action-react__move"></i>
-                                            <i class="fas fa-angry content-action-react content-action-care"></i>
-                                        </div>
-                                        <span class="content-action-quantity">3</span>
-                                        <div class="react-modal">
-                                            <div class="react-box">
-                                                <div class="react-box__title">
-                                                    <ul class="react-box__title-list">
-                                                        <li class="react-box__title-item react-box__title-all active-blog">
-                                                            All: 3
-                                                        </li>
-                                                        <li class="react-box__title-item react-box__title-love">
-                                                            <i class="fab fa-gratipay content-action-love"></i>
-                                                            <span class="react-quantity">1</span> 
-                                                        </li>
-                                                        <li class="react-box__title-item react-box__title-care">
-                                                            <i class="fas fa-angry content-action-react content-action-care"></i>
-                                                            <span class="react-quantity">1</span> 
-                                                        </li>
-                                                        <li class="react-box__title-item react-box__title-like">
-                                                            <i class="fas fa-thumbs-up content-action-react content-action-like"></i>
-                                                            <span class="react-quantity">1</span> 
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="users-box users-box-all">
-                                                    <div class="users-box__list">
-                                                        <div class="user-info-blog">
-                                                            <img src="./images/117251156_780671119335149_3490588943834725576_o.jpg" alt="" class="user-info__img">
-                                                            <div class="user-info__list-blog">
-                                                                <a class="user-info__list-nameblog">Tống Hoàng</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="add-box">
-                                                            <i class="fas fa-user-plus"></i>
-                                                            <span class="add-title">Add Friend</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="users-box__list">
-                                                        <div class="user-info-blog">
-                                                            <img src="./images/5f6e4a8528f4e-bpfull.jpg" alt="" class="user-info__img">
-                                                            <div class="user-info__list-blog">
-                                                                <a class="user-info__list-nameblog">Nguyễn Hưng</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="add-box">
-                                                            <i class="fas fa-user-plus"></i>
-                                                            <span class="add-title">Add Friend</span>
-                                                        </div>
-                                                    </div>     
-                                                    <div class="users-box__list">
-                                                        <div class="user-info-blog">
-                                                            <img src="./images/anhdaidien1.jpg" alt="" class="user-info__img">
-                                                            <div class="user-info__list-blog">
-                                                                <a class="user-info__list-nameblog">A Tuấn</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="add-box">
-                                                            <i class="fas fa-user-plus"></i>
-                                                            <span class="add-title">Add Friend</span>
-                                                        </div>
-                                                    </div>                                         
-                                                </div>
-                                                <div class="users-box users-box-love users-box__show">
-                                                    <div class="users-box__list">
-                                                        <div class="user-info-blog">
-                                                            <img src="./images/117251156_780671119335149_3490588943834725576_o.jpg" alt="" class="user-info__img">
-                                                            <div class="user-info__list-blog">
-                                                                <a class="user-info__list-nameblog">Tống Hoàng</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="add-box">
-                                                            <i class="fas fa-user-plus"></i>
-                                                            <span class="add-title">Add Friend</span>
-                                                        </div>
-                                                    </div>
-                                                                                          
-                                                </div>
-                                                <div class="users-box users-box-care users-box__show">
-                                                    <div class="users-box__list">
-                                                        <div class="user-info-blog">
-                                                            <img src="./images/5f6e4a8528f4e-bpfull.jpg" alt="" class="user-info__img">
-                                                            <div class="user-info__list-blog">
-                                                                <a class="user-info__list-nameblog">Nguyễn Hưng</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="add-box">
-                                                            <i class="fas fa-user-plus"></i>
-                                                            <span class="add-title">Add Friend</span>
-                                                        </div>
-                                                    </div>                                         
-                                                </div>
-                                                <div class="users-box users-box-like users-box__show">
-                                                    <div class="users-box__list">
-                                                        <div class="user-info-blog">
-                                                            <img src="./images/anhdaidien1.jpg" alt="" class="user-info__img">
-                                                            <div class="user-info__list-blog">
-                                                                <a class="user-info__list-nameblog">A Tuấn</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="add-box">
-                                                            <i class="fas fa-user-plus"></i>
-                                                            <span class="add-title">Add Friend</span>
-                                                        </div>
-                                                    </div>                                         
-                                                </div>
-                                                <div class="react-modal__quite">
-                                                    <i class="fas fa-times"></i>
-                                                </div>
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content-action-box">
-                                        <a href="" class="content-action-box__react">2 Comments</a>
-                                        <a href="" class="content-action-box__share">5 Shares</a>
-                                    </div>
-                                </div>
-                                <div class="posted-item-info">
-                                    <p class="posted-item-typetime">
-                                        <a href="">COSPLAY</a>
-                                        - SEPTEMBER 19,2020
-                                    </p>
-                                    <p class="posted-item-title">Take a look at all the best cosplays of the 2020 Anime Convention in Tokyo,...</p>
-                                    <p class="posted-item-text">
-                                        Cosplay (コスプレ, kosupure), a portmanteau of the words costume play, is a performance art in which participants called cosplayers wear costumes and fashion accessories to represent a specific character. Cosplayers often in...
-                                    </p>
-                                    <a href="" class="posted-item-link">READ MORE...</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-actions">
-                            <div class="content-action content-action__react">
-                                <i class="far fa-thumbs-up"></i>
-                                <span class="content-action-text">React</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="far fa-comment-alt"></i>
-                                <span class="content-action-text">Comment</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="fas fa-share"></i>
-                                <span class="content-action-text">Share</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="widget-box statuss">
-                        <div class="widget-box-status">
-                            <div class="user-status">
-                                <div class="user-status__avatar">
-                                    <img src="./images/117251156_780671119335149_3490588943834725576_o.jpg" alt="">
-                                </div>
-                                <div class="user-status__info">
-                                    <span class="user-status__info-name">
-                                        <a href="">Tống Hoàng</a>
-                                        posted an update in the group <span>UIT K13</span>
-                                    </span>
-                                    <p class="user-status__info-time">1 week ago</p>
-                                </div>
-                            </div>
-                            <p class="user-status-text">
-                                Thanks for letting me join!!
-                            </p>
-                        </div>
-                        <div class="content-actions">
-                            <div class="content-action content-action__react">
-                                <i class="far fa-thumbs-up"></i>
-                                <span class="content-action-text">React</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="far fa-comment-alt"></i>
-                                <span class="content-action-text">Comment</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="fas fa-share"></i>
-                                <span class="content-action-text">Share</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="widget-box media">
-                        <div class="widget-box-status">
-                            <div class="user-status">
-                                <div class="user-status__avatar">
-                                    <img src="./images/117251156_780671119335149_3490588943834725576_o.jpg" alt="">
-                                </div>
-                                <div class="user-status__info">
-                                    <span class="user-status__info-name">
-                                        <a href="">Bearded Wonder</a>
-                                        updated his cover photo
-                                    </span>
-                                    <p class="user-status__info-time">3 months ago</p>
-                                </div>
-                            </div>
-                            <p class="user-status-text">
-                                What do you think of my new cover image?
-                            </p>
-                        </div>
-                        <img style="max-width: 100%;" src="./images/goc-anh-dep-toa-nha-cao-nhat-viet-nam-thap-land-mark-81-tang-2.jpg" alt="">
-                        <div class="content-actions">
-                            <div class="content-action content-action__react">
-                                <i class="far fa-thumbs-up"></i>
-                                <span class="content-action-text">React</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="far fa-comment-alt"></i>
-                                <span class="content-action-text">Comment</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="fas fa-share"></i>
-                                <span class="content-action-text">Share</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="widget-box statuss">
-                        <div class="widget-box-status">
-                            <div class="user-status">
-                                <div class="user-status__avatar">
-                                    <img src="./images/anhdaidien1.jpg" alt="">
-                                </div>
-                                <div class="user-status__info">
-                                    <span class="user-status__info-name">
-                                        <a href="">A Tuấn</a>
-                                        updated status
-                                    </span>
-                                    <p class="user-status__info-time">4 days ago</p>
-                                </div>
-                            </div>
-                            <p class="user-status-text">
-                                My Christmas joy is all of you. I am very happy that everyone is by my side. Hope the sweetest things will come to everyone in our family. Merry Christmas family!
-                            </p>
-                        </div>
-                        <img style="max-width: 100%;" src="./images/hinh-anh-chuc-giang-sinh-dep-10.jpg" alt="">
-                        <div class="content-actions">
-                            <div class="content-action content-action__react">
-                                <i class="far fa-thumbs-up"></i>
-                                <span class="content-action-text">React</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="far fa-comment-alt"></i>
-                                <span class="content-action-text">Comment</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="fas fa-share"></i>
-                                <span class="content-action-text">Share</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="widget-box share">
-                        <div class="widget-box-status">
-                            <div class="user-status">
-                                <div class="user-status__avatar">
-                                    <img src="./images/anhdaidien1.jpg" alt="">
-                                </div>
-                                <div class="user-status__info">
-                                    <span class="user-status__info-name">
-                                        <a href="">A Tuấn</a>
-                                        shared a post
-                                    </span>
-                                    <p class="user-status__info-time">4 days ago</p>
-                                </div>
-                            </div>
-                            <p class="user-status-text">
-                                This is a shared blog post!
-                            </p>
-                        </div>
-                        <div class="box-share">
-                            <div class="posted-item-new">
-                                <a href="">
-                                    <div class="posted-item-image" style="background-image: url(./images/jeshoots-com-250229-unsplash-584x389.jpg);"></div>
-                                </a>
-                                <div class="content-action-post">
-                                    <div class="content-action-active">
-                                        <div class="content-action-icon">
-                                            <i class="fab fa-gratipay content-action-react content-action-love"></i>
-                                            <i class="fas fa-angry content-action-react content-action-care content-action-react__move-1"></i>
-                                        </div>
-                                        <span class="content-action-quantity">2</span>
-                                        <div class="react-modal">
-                                            <div class="react-box">
-                                                <div class="react-box__title">
-                                                    <ul class="react-box__title-list">
-                                                        <li class="react-box__title-item react-box__title-all active-blog">
-                                                            All: 2
-                                                        </li>
-                                                        <li class="react-box__title-item react-box__title-love">
-                                                            <i class="fab fa-gratipay content-action-love"></i>
-                                                            <span class="react-quantity">1</span> 
-                                                        </li>
-                                                        <li class="react-box__title-item react-box__title-care">
-                                                            <i class="fas fa-angry content-action-react content-action-care"></i>
-                                                            <span class="react-quantity">1</span> 
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="users-box users-box-all">
-                                                    <div class="users-box__list">
-                                                        <div class="user-info-blog">
-                                                            <img src="./images/117251156_780671119335149_3490588943834725576_o.jpg" alt="" class="user-info__img">
-                                                            <div class="user-info__list-blog">
-                                                                <a class="user-info__list-nameblog">Tống Hoàng</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="add-box">
-                                                            <i class="fas fa-user-plus"></i>
-                                                            <span class="add-title">Add Friend</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="users-box__list">
-                                                        <div class="user-info-blog">
-                                                            <img src="./images/5f6e4a8528f4e-bpfull.jpg" alt="" class="user-info__img">
-                                                            <div class="user-info__list-blog">
-                                                                <a class="user-info__list-nameblog">Nguyễn Hưng</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="add-box">
-                                                            <i class="fas fa-user-plus"></i>
-                                                            <span class="add-title">Add Friend</span>
-                                                        </div>
-                                                    </div>                                         
-                                                </div>
-                                                <div class="users-box users-box-love users-box__show">
-                                                    <div class="users-box__list">
-                                                        <div class="user-info-blog">
-                                                            <img src="./images/117251156_780671119335149_3490588943834725576_o.jpg" alt="" class="user-info__img">
-                                                            <div class="user-info__list-blog">
-                                                                <a class="user-info__list-nameblog">Tống Hoàng</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="add-box">
-                                                            <i class="fas fa-user-plus"></i>
-                                                            <span class="add-title">Add Friend</span>
-                                                        </div>
-                                                    </div>
-                                                                                          
-                                                </div>
-                                                <div class="users-box users-box-care users-box__show">
-                                                    <div class="users-box__list">
-                                                        <div class="user-info-blog">
-                                                            <img src="./images/5f6e4a8528f4e-bpfull.jpg" alt="" class="user-info__img">
-                                                            <div class="user-info__list-blog">
-                                                                <a class="user-info__list-nameblog">Nguyễn Hưng</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="add-box">
-                                                            <i class="fas fa-user-plus"></i>
-                                                            <span class="add-title">Add Friend</span>
-                                                        </div>
-                                                    </div>                                         
-                                                </div>
-                                                <div class="react-modal__quite">
-                                                    <i class="fas fa-times"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content-action-box">
-                                        <a href="" class="content-action-box__react">0 Comments</a>
-                                        <a href="" class="content-action-box__share">0 Shares</a>
-                                    </div>
-                                </div>
-                                <div class="posted-item-info">
-                                    <p class="posted-item-typetime">
-                                        <a href="">GAMING</a>
-                                        - SEPTEMBER 22,2020
-                                    </p>
-                                    <p class="posted-item-title">Here’s the X-mas Gamer Box from Powerstation and it packs some surpirses</p>
-                                    <p class="posted-item-text">
-                                        A video game console is an electronic or computer device that outputs a video signal or visual image to display a video game that one or more people can play through some type of game controller. These may be home consol...
-                                    </p>
-                                    <a href="" class="posted-item-link">READ MORE...</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-actions">
-                            <div class="content-action content-action__react">
-                                <i class="far fa-thumbs-up"></i>
-                                <span class="content-action-text">React</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="far fa-comment-alt"></i>
-                                <span class="content-action-text">Comment</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="fas fa-share"></i>
-                                <span class="content-action-text">Share</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="widget-box media ">
-                        <div class="widget-box-status">
-                            <div class="user-status">
-                                <div class="user-status__avatar">
-                                    <img src="./images/117251156_780671119335149_3490588943834725576_o.jpg" alt="">
-                                </div>
-                                <div class="user-status__info">
-                                    <span class="user-status__info-name">
-                                        <a href="">Tống Hoàng</a>
-                                        posted an update
-                                    </span>
-                                    <p class="user-status__info-time">2 months ago</p>
-                                </div>
-                            </div>
-                            <p class="user-status-text">
-                                This is a GIF upload test!
-                            </p>
-                        </div>
-                        <img style="max-width:100%;" src="./images/giphy.gif" alt="">
-                        <div class="content-actions">
-                            <div class="content-action content-action__react">
-                                <i class="far fa-thumbs-up"></i>
-                                <span class="content-action-text">React</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="far fa-comment-alt"></i>
-                                <span class="content-action-text">Comment</span>
-                            </div>
-                            <div class="content-action">
-                                <i class="fas fa-share"></i>
-                                <span class="content-action-text">Share</span>
-                            </div>
-                        </div>
-                    </div>
+                    @* Render ở đây *@
+
+                <div id="post-list"></div>
+                    
                 </div>
+
+
                 <div class="new-right grid__column-3">
                     <div class="newest">
                         <p class="heading">Friends</p>
@@ -4611,10 +3985,120 @@
         float: left;
         text-align: left;
     }
+
+        .widget-box {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 16px;
+            margin-bottom: 24px;
+        }
+
+        .user-status {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-status__avatar img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .user-status__info {
+            margin-left: 12px;
+        }
+
+        .user-status__info-name a {
+            font-weight: 600;
+            color: #0d6efd;
+            text-decoration: none;
+        }
+
+        .user-status__info-time {
+            font-size: 0.875rem;
+            color: #6c757d;
+        }
+
+        .user-status-text {
+            margin-top: 12px;
+            font-size: 1rem;
+        }
+
+        .content-actions {
+            display: flex;
+            gap: 20px;
+            margin-top: 12px;
+            border-top: 1px solid #e9ecef;
+            padding-top: 10px;
+        }
+
+        .content-action {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            color: #495057;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+            .content-action:hover {
+                color: #0d6efd;
+            }
+
+            .content-action i {
+                margin-right: 6px;
+            }
+
+        .comment-section {
+            background-color: #f8f9fa;
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 16px;
+        }
+
+        .comment-list .comment-item {
+            padding: 6px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+            .comment-list .comment-item:last-child {
+                border-bottom: none;
+            }
+
+        .comment-section input {
+            margin-top: 10px;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #ced4da;
+        }
+
+        .comment-section button {
+            margin-top: 8px;
+            padding: 6px 14px;
+            background-color: #0d6efd;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 0.9rem;
+        }
+
+            .comment-section button:hover {
+                background-color: #0b5ed7;
+            }
+
+        .comment-section a {
+            display: inline-block;
+            margin-top: 8px;
+            color: #0d6efd;
+            cursor: pointer;
+        }
 </style>
 
 
-    <script>
+<script>
+
         const GetFriends = () => {
             fetch("http://localhost:5056/home/getfriends")
                 .then(res => res.json())
@@ -4695,7 +4179,6 @@
         };
 
         GetFriends();
-
         const currentUserId = "@(ViewBag.userId ?? "unknown")";
         console.log("🧪 currentUserId =", currentUserId);
 
@@ -4760,5 +4243,245 @@
                 messagesDiv.appendChild(msg);
             }
         }
+
+
+      
+
     </script>
 
+
+    <script>
+
+
+        function toggleLike(postId, element) {
+          fetch("http://localhost:5056/home/ToggleLike", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded"
+            },
+            body: `postId=${postId}`
+          })
+            .then(res => res.json())
+            .then(data => {
+              const icon = element.querySelector("i");
+              const span = element.querySelector("span");
+              const countSpan = element.querySelector(".text-muted");
+
+              let currentCount = parseInt(countSpan.textContent.replace(/\D/g, '') || 0);
+
+              if (data.liked) {
+                icon.classList.remove("far");
+                icon.classList.add("fas");
+                span.innerText = "Liked";
+                countSpan.textContent = `(${currentCount + 1})`;
+              } else {
+                icon.classList.remove("fas");
+                icon.classList.add("far");
+                span.innerText = "Like";
+                countSpan.textContent = `(${currentCount - 1})`;
+              }
+            })
+            .catch(error => {
+              console.error("Lỗi like post:", error);
+            });
+        }
+
+
+        const GetPosts = () => {
+          fetch("http://localhost:5056/home/GetPosts")
+            .then(res => res.json())
+            .then(posts => {
+              const container = document.getElementById("post-list");
+              container.innerHTML = "";
+
+              posts.forEach(post => {
+                const createdAt = new Date(post.createdAt);
+                const time = createdAt.toLocaleString();
+
+                const html = `
+                  <div class="widget-box media border rounded p-3 mb-4 shadow-sm">
+                    <div class="widget-box-status">
+                      <div class="user-status d-flex align-items-center">
+                        <div class="user-status__avatar me-3">
+                          <img src="${post.avatar}" alt="User Avatar" class="rounded-circle" width="50" height="50">
+                        </div>
+                        <div class="user-status__info">
+                          <span class="user-status__info-name fw-bold">
+                            <a href="#">${post.userName}</a> posted an update
+                          </span>
+                          <p class="user-status__info-time text-muted mb-0">${time}</p>
+                        </div>
+                      </div>
+                      <p class="user-status-text mt-3">${post.content}</p>
+                      ${post.imagePath
+                        ? `<img src="${post.imagePath}" alt="Post image" class="img-fluid rounded mt-2" />`
+                        : ''}
+                    </div>
+
+                    <div class="content-actions d-flex gap-3 border-top pt-2 mt-2">
+                              <div class="content-action content-action__react text-primary" role="button"
+                                     onclick="toggleLike(${post.id}, this)" data-liked="${post.likedByCurrentUser}">
+                                  <i class="${post.likedByCurrentUser ? 'fas' : 'far'} fa-thumbs-up"></i>
+                                  <span>${post.likedByCurrentUser ? 'Liked' : 'Like'}</span>
+                                  <span class="ms-1 text-muted">(${post.likeCount})</span>
+                                </div>
+
+                      <div class="content-action content-action__comment text-primary" data-post-id="${post.id}" role="button">
+                        <i class="far fa-comment-alt"></i> <span>Comment</span>
+                      </div>
+                      <div class="content-action text-primary" role="button">
+                        <i class="fas fa-share"></i> <span>Share</span>
+                      </div>
+                    </div>
+
+                    <div class="comment-section" id="comment-section-${post.id}" style="display:none; margin-top: 10px;">
+                      <div class="comment-list" id="comment-list-${post.id}">
+                        <!-- Comments here -->
+                      </div>
+
+                      <input type="text" id="comment-input-${post.id}" class="form-control mt-2" placeholder="Viết bình luận...">
+                      <button onclick="submitComment(${post.id})" class="btn btn-primary btn-sm mt-2">Gửi</button>
+
+                      <div>
+                        <a href="javascript:void(0);" onclick="toggleComments(${post.id})" id="toggle-comment-${post.id}" class="d-inline-block mt-2">Xem thêm</a>
+                      </div>
+                    </div>
+                  </div>
+                `;
+
+                container.innerHTML += html;
+              });
+            })
+            .catch(error => {
+              console.error("Lỗi khi lấy bài viết:", error);
+            });
+        };
+
+        // Submit comment (bình luận gốc)
+        function submitComment(postId) {
+          const input = document.getElementById(`comment-input-${postId}`);
+          const content = input.value.trim();
+          if (!content) return;
+
+          fetch("http://localhost:5056/home/AddComment", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: `postId=${postId}&content=${encodeURIComponent(content)}`
+          })
+            .then(res => res.json())
+            .then(data => {
+              if (data.success) {
+                loadComments(postId); // Reload sau khi comment
+                input.value = "";
+              } else {
+                alert("Không thể gửi bình luận.");
+              }
+            })
+            .catch(err => console.error("Lỗi gửi bình luận:", err));
+        }
+
+        // Submit reply (trả lời bình luận)
+        function submitReply(postId, parentId) {
+          const input = document.getElementById(`reply-input-${parentId}`);
+          const content = input.value.trim();
+          if (!content) return;
+
+          fetch("http://localhost:5056/home/AddComment", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: `postId=${postId}&content=${encodeURIComponent(content)}&parentId=${parentId}`
+          })
+            .then(res => res.json())
+            .then(data => {
+              if (data.success) {
+                loadComments(postId); // Reload comment list
+              } else {
+                alert("Không thể gửi trả lời.");
+              }
+            })
+            .catch(err => console.error("Lỗi gửi reply:", err));
+        }
+
+        // Load all comments for a post (kèm reply)
+        function loadComments(postId) {
+          const commentList = document.getElementById(`comment-list-${postId}`);
+          commentList.innerHTML = "<div>Đang tải bình luận...</div>";
+
+          fetch(`http://localhost:5056/home/GetComments?postId=${postId}`)
+            .then(res => res.json())
+            .then(comments => {
+              commentList.innerHTML = "";
+
+              comments.forEach(comment => {
+                const repliesHtml = (comment.replies || []).map(reply => `
+                  <div class="ms-4 mt-2">
+                    <div><strong>${reply.userName}</strong>: ${reply.content}</div>
+                    <div class="text-muted small">${reply.createdAt}</div>
+                  </div>
+                `).join("");
+
+                const replyForm = `
+                  <div class="ms-4 mt-2">
+                    <input type="text" id="reply-input-${comment.id}" class="form-control form-control-sm" placeholder="Trả lời bình luận...">
+                    <button class="btn btn-outline-primary btn-sm mt-1" onclick="submitReply(${postId}, ${comment.id})">Trả lời</button>
+                  </div>
+                `;
+
+                const html = `
+                  <div class="comment-item mt-2 border-bottom pb-2">
+                    <strong>${comment.userName}</strong>: ${comment.content}
+                    <div class="text-muted small">${comment.createdAt}</div>
+                    ${repliesHtml}
+                    ${replyForm}
+                  </div>
+                `;
+
+                commentList.innerHTML += html;
+              });
+
+              // Ẩn bớt nếu quá nhiều
+              const items = commentList.querySelectorAll(".comment-item");
+              items.forEach((c, i) => c.style.display = i < 3 ? "block" : "none");
+            })
+            .catch(err => {
+              commentList.innerHTML = "<div class='text-danger'>Không tải được bình luận</div>";
+              console.error("Lỗi khi load comment:", err);
+            });
+        }
+
+        function toggleComments(postId) {
+          const toggleLink = document.getElementById(`toggle-comment-${postId}`);
+          const commentList = document.getElementById(`comment-list-${postId}`);
+          const comments = commentList.querySelectorAll(".comment-item");
+
+          if (comments.length <= 3) return;
+
+          if (toggleLink.innerText === "Xem thêm") {
+            comments.forEach(c => c.style.display = "block");
+            toggleLink.innerText = "Ẩn bớt";
+          } else {
+            comments.forEach((c, i) => c.style.display = i < 3 ? "block" : "none");
+            toggleLink.innerText = "Xem thêm";
+          }
+        }
+
+        // Toggle hiển thị comment section
+        document.addEventListener("click", function (e) {
+          const target = e.target.closest(".content-action__comment");
+          if (target) {
+            const postId = target.dataset.postId;
+            const section = document.getElementById(`comment-section-${postId}`);
+            const isVisible = section.style.display === "block";
+
+            section.style.display = isVisible ? "none" : "block";
+            if (!isVisible) loadComments(postId);
+          }
+        });
+
+        // Gọi khi trang load
+        GetPosts();
+
+
+
+
+    </script>
