@@ -11,6 +11,8 @@ namespace DoAnLapTrinhWeb.Models
 
         public DbSet<Follow>Follow { get; set; }
         public DbSet<Message> Messages { get; set; }
+        public DbSet<Post> Posts { get; set; }
+        public DbSet<Comment> Comments { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

@@ -35,17 +35,17 @@ builder.Services.AddTransient<IEmailSender, DoAnLapTrinhWeb.Services.StmpEmailSe
 builder.Services.AddScoped<MessageService>();
 
 
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
-})
-.AddCookie()
-.AddGoogle(options =>
-{
-    options.ClientId = "733548515468-h32e75gprkketuja89hp8pro1f5o8vc4.apps.googleusercontent.com";
-    options.ClientSecret = "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";
-});
+//builder.Services.AddAuthentication(options =>
+//{
+//    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+//    options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
+//})
+//.AddCookie()
+//.AddGoogle(options =>
+//{
+//    options.ClientId = "733548515468-h32e75gprkketuja89hp8pro1f5o8vc4.apps.googleusercontent.com";
+//    options.ClientSecret = "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";
+//});
 
 var app = builder.Build();
 
@@ -84,6 +84,6 @@ app.MapRazorPages();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Post}/{action=Index}/{id?}");
 
 app.Run();

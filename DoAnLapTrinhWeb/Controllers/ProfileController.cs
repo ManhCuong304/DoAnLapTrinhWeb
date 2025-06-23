@@ -23,14 +23,27 @@ namespace DoAnLapTrinhWeb.Controllers
         public async Task<IActionResult> Index()
         {
             var user = await _context.Users
-            .Include(u => u.Followings)
-            .Include(u => u.Followers) 
-            .FirstOrDefaultAsync(u => u.Id == _userManager.GetUserId(User));
+                .Include(u => u.Followings)
+                .Include(u => u.Followers)
+                .FirstOrDefaultAsync(u => u.Id == _userManager.GetUserId(User));
 
             ViewBag.Following = user.Followings?.Count ?? 0;
             ViewBag.Follower = user.Followers?.Count ?? 0;
+
+            // ✅ Thêm đoạn này vào đây:
+            var currentUserId = _userManager.GetUserId(User);
+
+            var suggestedUsers = await _context.Users
+                .Where(u => u.Id != currentUserId &&
+                            !_context.Follow.Any(f => f.FollowerId == currentUserId && f.FollowingId == u.Id))
+                .Take(5)
+                .ToListAsync();
+
+            ViewBag.SuggestedUsers = suggestedUsers;
+
             return View(user);
         }
+
 
         public async Task<IActionResult> SearchProfile(string query)
         {
@@ -142,7 +155,18 @@ namespace DoAnLapTrinhWeb.Controllers
             await _userManager.UpdateAsync(user);
             return RedirectToAction("Index");
         }
+        public async Task<IActionResult> MyFriends()
+        {
+            var currentUserId = _userManager.GetUserId(User);
 
+            // Lấy danh sách người dùng mà current user đã follow
+            var friends = await _context.Follow
+                .Where(f => f.FollowerId == currentUserId)
+                .Select(f => f.Following)
+                .ToListAsync();
+
+            return View(friends);
+        }
 
     }
 }

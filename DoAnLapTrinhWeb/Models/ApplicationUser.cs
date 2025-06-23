@@ -17,5 +17,9 @@ namespace DoAnLapTrinhWeb.Models
 
         public List<Follow> Followings { get; set; }
         public List<Follow> Followers { get; set; }
+
+        public ICollection<Post> Posts { get; set; }
+        public ICollection<Comment> Comments { get; set; }
+
     }
 }

@@ -1,0 +1,23 @@
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+
+namespace DoAnLapTrinhWeb.Models
+{
+    public class Comment
+    {
+        public int Id { get; set; }
+
+        [Required]
+        public string Content { get; set; }
+
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+
+        // Quan hệ đến bài viết
+        public int PostId { get; set; }
+        public Post Post { get; set; }
+
+        // Quan hệ đến người dùng
+        public string? UserId { get; set; }
+        public ApplicationUser? User { get; set; }
+    }
+}
