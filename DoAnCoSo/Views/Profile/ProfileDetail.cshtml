@@ -1,0 +1,193 @@
+﻿@using DoAnCoSo.Models
+@model DoAnCoSo.Models.ProfileViewModel
+
+@{
+    ViewData["Title"] = "Trang cá nhân";
+}
+
+<style>
+    .profile-container {
+        max-width: 935px;
+        margin: 100px auto;
+        padding: 0 20px;
+    }
+
+    .profile-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .profile-avatar {
+        flex: 0 0 180px;
+        margin-right: 40px;
+    }
+
+        .profile-avatar img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #fff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+    .profile-info {
+        flex: 1;
+    }
+
+    .username {
+        font-size: 32px;
+        font-weight: 300;
+        margin-bottom: 15px;
+        color: #262626;
+    }
+
+    .bio {
+        font-size: 16px;
+        line-height: 24px;
+        color: #262626;
+    }
+
+    .modal-content {
+        border-radius: 12px;
+    }
+
+    .form-control {
+        border-radius: 8px;
+        border: 1px solid #dbdbdb;
+        font-size: 14px;
+    }
+
+    .btn-save {
+        background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 8px 20px;
+        font-weight: 600;
+    }
+
+    .btn-cancel {
+        background: #fff;
+        color: #262626;
+        border: 1px solid #dbdbdb;
+        border-radius: 8px;
+        padding: 8px 20px;
+        font-weight: 600;
+    }
+
+</style>
+
+<div class="profile-container">
+
+    <div class="profile-header">
+        <div class="profile-avatar">
+            <img src="@Url.Content(Model.Image ?? "/img/default-avatar.png")" alt="Profile Picture">
+        </div>
+
+        <div class="profile-info">
+            <div class="d-flex align-items-center mb-3 username-section"
+                 data-bs-toggle="modal"
+                 data-bs-target="#editProfileModal"
+                 style="cursor:pointer;">
+                <h1 class="username me-3">@Model.UserName</h1>
+                <img src="https://cdn-icons-png.flaticon.com/128/9308/9308015.png" width="28">
+            </div>
+
+            <div class="bio">
+                <strong>@(Model.FullName ?? "Chưa có thông tin")</strong><br>
+
+                @if (!string.IsNullOrWhiteSpace(Model.Description))
+                {
+                    <div>📚 Ngành học: @Model.Description</div>
+                }
+
+                @if (!string.IsNullOrWhiteSpace(Model.Major))
+                {
+                    <div>🧪 Chuyên ngành: @Model.Major</div>
+                }
+
+                @if (!string.IsNullOrWhiteSpace(Model.Describe))
+                {
+                    <div>📘 Đặc điểm: @Model.Describe</div>
+                }
+
+                @if (Model.BirthDate != null)
+                {
+                    <div>🎂 Ngày sinh: @Model.BirthDate?.ToString("dd/MM/yyyy")</div>
+                }
+
+                <div style="margin-top:5px;">
+                    <a href="mailto:@Model.Email" style="color:#0095f6">@Model.Email</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal chỉnh sửa -->
+<div class="modal fade" id="editProfileModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="post" asp-controller="Profile" asp-action="EditProfile" enctype="multipart/form-data">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Chỉnh sửa thông tin</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="mb-3">
+                        <label class="form-label">Tên đăng nhập</label>
+                        <input type="text" class="form-control" name="Nickname" value="@Model.UserName">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Họ tên</label>
+                        <input type="text" class="form-control" name="FullName" value="@Model.FullName">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Avatar</label>
+                        <input type="file" class="form-control" name="Avatar">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" value="@Model.Email" disabled>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Ngày sinh</label>
+                        <input type="date" class="form-control" name="BirthDate" value="@(Model.BirthDate?.ToString("yyyy-MM-dd"))">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Ngành học</label>
+                        <textarea class="form-control" id="description" name="Description">@Model.Description</textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Chuyên ngành</label>
+                        <input type="text" class="form-control" id="major" name="Major" value="@Model.Major">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Đặc điểm</label>
+                        <textarea class="form-control" id="describe" name="Describe">@Model.Describe</textarea>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cancel" data-bs-dismiss="modal">Hủy</button>
+                    <button type="submit" class="btn btn-save">Lưu</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
